@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #42b883; 
+}
+.head{
+    color:  #35495e;
+    text-align: center;
+    font-weight: 500;
+
+}
+.box{
+    background: #ff7e67; 
+    color: white;
+    border: none;
+    border-radius: 20px;
+    height: 70px;
+}
+.winmsg{
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.winblock{
+    display: none;
+}
+.resetbtn button {
+    background-color: #35495e;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+.winmsg button {
+    align-self:center;
+    background-color: #35495e;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+.winmsg button:hover{
+    background-color:#35495e ;
+    color: white;
+}
+.box button {
+    font-size: 5re
+}
+.first-color { 
+	background: #42b883; 
+}
+	
+.second-color { 
+	background: #347474; 
+}
+
+.third-color { 
+	background: #35495e; 
+}
+
+.fourth-color { 
+	background: #ff7e67; 
+}
